@@ -1,0 +1,17 @@
+.top-bar, .top-bar ul{
+  background-color: $nav-background;
+}
+
+.menu-text{
+  color: $nav-text;
+}
+
+.menu li a{
+  color: $nav-text;
+  font-weight: normal;
+}
+
+.menu a{
+  color: $nav-text;
+  font-weight: lighter;
+}
