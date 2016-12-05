@@ -15,3 +15,9 @@
   color: $nav-text;
   font-weight: lighter;
 }
+
+.top-bar{
+  .active-link{
+    font-weight: bold;
+  }
+}
