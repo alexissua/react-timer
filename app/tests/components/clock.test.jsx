@@ -13,6 +13,18 @@ describe('Clock', function(){
   });
 });
 
+describe('Render', function(){
+  it("Should render clock to output", function(){
+    var clock = TestUtils.renderIntoDocument(<Clock totalSeconds={62} />);
+
+    // Convertimos el elemento clock en elemento para jQuery::
+    var $el = $(ReactDOM.findDOMNode(clock));
+    var actualText = $el.find(".clock-text").text();
+
+    expect(actualText).toBe("01:02");
+  });
+});
+
 describe("Format Seconds: ", function(){
   it("Should format a number of seconds", function(){
     var clock = TestUtils.renderIntoDocument(<Clock/>);
