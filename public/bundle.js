@@ -19942,6 +19942,11 @@
 	    return React.createElement(
 	      "div",
 	      null,
+	      React.createElement(
+	        "h3",
+	        { className: "page-title" },
+	        "Countdown App"
+	      ),
 	      React.createElement(Clock, { totalSeconds: count }),
 	      renderControlArea()
 	    );
@@ -26241,7 +26246,7 @@
 
 
 	// module
-	exports.push([module.id, ".top-bar, .top-bar ul {\n  background-color: #3F51B5; }\n\n.menu-text {\n  color: white; }\n\n.menu li a {\n  color: white;\n  font-weight: normal; }\n\n.menu a {\n  color: white;\n  font-weight: lighter; }\n\n.top-bar .active-link {\n  font-weight: bold; }\n\n.clock {\n  align-items: center;\n  background-color: #B5D0E2;\n  border: 2px solid #2099E8;\n  border-radius: 50%;\n  display: flex;\n  width: 14rem;\n  height: 14rem;\n  justify-content: center;\n  margin: 4rem auto; }\n\n.clock-text {\n  color: white;\n  font-size: 28pt;\n  font-weight: 300; }\n\n.controls {\n  display: flex;\n  justify-content: center; }\n  .controls .button {\n    padding: 10px 15%; }\n  .controls .button:first-child {\n    margin-right: 8%; }\n", ""]);
+	exports.push([module.id, ".top-bar, .top-bar ul {\n  background-color: #3F51B5; }\n\n.menu-text {\n  color: white; }\n\n.menu li a {\n  color: white;\n  font-weight: normal; }\n\n.menu a {\n  color: white;\n  font-weight: lighter; }\n\n.top-bar .active-link {\n  font-weight: bold; }\n\n.clock {\n  align-items: center;\n  background-color: #B5D0E2;\n  border: 2px solid #2099E8;\n  border-radius: 50%;\n  display: flex;\n  width: 14rem;\n  height: 14rem;\n  justify-content: center;\n  margin: 10% auto; }\n\n.clock-text {\n  color: white;\n  font-size: 28pt;\n  font-weight: 300; }\n\n.controls {\n  display: flex;\n  justify-content: center; }\n  .controls .button {\n    padding: 10px 15%; }\n  .controls .button:first-child {\n    margin-right: 8%; }\n\n.page-title {\n  margin-top: 15%;\n  margin-left: 0;\n  margin-right: 0;\n  margin-bottom: 2%;\n  padding: 0;\n  text-align: center;\n  /* font-size: 28pt; */ }\n", ""]);
 
 	// exports
 
